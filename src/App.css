@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+.app-container {
+  min-height: 100vh;
+  background-color: #050414;
+  position: relative;
+  overflow: hidden;
+}
+
+
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 0.1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(1.05);
+  }
+}
+
