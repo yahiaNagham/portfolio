@@ -74,16 +74,16 @@ import {
             <div className={styles.connectSection}>
               <h3 className={styles.connectTitle}>Connect With Me</h3>
               <div className={styles.socialLinks}>
-                <a href="#" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com" aria-label="LinkedIn">
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
-                <a href="#" aria-label="Twitter">
+                <a href="https://x.com" aria-label="Twitter">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
-                <a href="#" aria-label="GitHub">
+                <a href="https://github.com/yahiaNagham" aria-label="GitHub">
                   <FontAwesomeIcon icon={faGithub} />
                 </a>
-                <a href="#" aria-label="Instagram">
+                <a href="https://www.instagram.com" aria-label="Instagram">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </div>
