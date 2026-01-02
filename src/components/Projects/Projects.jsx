@@ -6,19 +6,24 @@ import viteImg from "../../assets/vite.png";
 import reactImg from "../../assets/lab5.png";
 import jestImg from "../../assets/jest.png";
 import nodeImg from "../../assets/node.png";
+import githubdetLogo from '../../assets/github_det.png';
+import health from '../../assets/health.png';
+import cars from '../../assets//cars.png';
+import taskremLogo from '../../assets/emaster.png'
 
 function Work() {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    
     {
       title: "Lab 7: Kanban Board",
       desc: `Build a functional Kanban Board to manage tasks across different statuses ("To Do", "In Progress", "Done") 
        using modern React patterns including component architecture, state management, and complex state logic for moving tasks
        between columns.`,
       img: kanbanImg,
-      live: "#",
+      live: "https://cawlab7.vercel.app/",
       git: "https://github.com/yahiaNagham/CAW_Lab7_G2_YAHIA_DOUAS",
       tech: ["React", "Vite", "Css", "Jest"],
     },
@@ -26,7 +31,7 @@ function Work() {
       title: "Lab 6:Vite – My First React App",
       desc: "Set up a professional React development environment using Vite,the modern standard for frontend tooling. Learn how to create and export components, manage module imports/exports, follow React component conventions, and launch a minimal React app.",
       img: viteImg,
-      live: "#",
+      live: "https://cawlab06.vercel.app/",
       git: "https://github.com/yahiaNagham/Caw_Lab06",
       tech: ["React", "Vite", "JavaScript", "Css"],
     },
@@ -34,7 +39,7 @@ function Work() {
       title: "Lab 5: React Components",
       desc: "Practice building React components using functional components, props, state, and events. Exercises include creating interactive buttons, counters, dynamic lists, forms for authentication, and dynamically styled div elements.",
       img: reactImg,
-      live: "#",
+      live: "https://cawlabs05.vercel.app/",
       git: "https://github.com/yahiaNagham/Caw_Labs05",
       tech: ["React", "JavaScript", "Css"],
     },
@@ -54,6 +59,39 @@ function Work() {
       git: "https://github.com/yahiaNagham/Caw_Labs4",
       tech: ["Node.js", "JavaScript", "NPM"],
     },
+    {
+      title: "Health AI",
+      desc: "HealthAI is a web-based medical platform that integrates artificial intelligence to assist in the analysis of medical examinations.The project allows users to upload medical scan images (such as chest X-rays or CT scans), which are then analyzed using deep learning models to detect potential diseases.",
+      img: health,
+      live: "#",
+      git: "https://github.com/yahiaNagham/haelth-ai",
+      tech: [ "Node.js", "Prisma", "CNN", "JavaScript","Next js"],
+    },
+    {
+      title: "Cars",
+      desc: "This project is a web-based platform for buying and selling cars, where users can post listings or search for vehicles based on criteria such as brand, model, price, and location. The platform includes user accounts, detailed car profiles, and communication features to facilitate smooth transactions between buyers and sellers.",
+      img: cars,
+      live: "#",
+      git: "https://github.com/yahiaNagham/cars",
+      tech: ["php","phpmyAdmin", "HTML", "CSS", "JavaScript"],
+    },
+      {
+      title: "E_Master",
+      desc: "e-Master is a web application designed for managing final-year projects (PFE) within universities. The system facilitates communication and organization between students, supervising teachers, and the administration by providing a centralized platform for project proposal submission, supervision tracking, document sharing, deadline management, and evaluation processes.",
+      img: taskremLogo,
+      live: "#",
+      git: "https://github.com/yahiaNagham/e-master1",
+      tech: ["Html", "Css", "Php", "PhpmyAdmin"],
+    },
+        {
+      title: "Trouve Ton Labo",
+      desc: "Trouve ton labo is a web application designed to facilitate the search for medical analysis laboratories based on the user’s location. The project allows users to select their wilaya (region) and exact position in order to display a list of available laboratories in their area, along with essential information such as address, contact details, and available services. The platform aims to simplify access to nearby laboratories .",
+      img: githubdetLogo,
+      live: "#",
+      git: "https://github.com/yahiaNagham/club",
+      tech: ["HTML", "CSS", "JavaScript", "PHP"],
+    },
+
   ];
 
   return (
